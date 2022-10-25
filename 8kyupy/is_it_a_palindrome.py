@@ -6,12 +6,12 @@ def is_palindrome(s):
     s = s.lower().replace(' ','')
     return s==s[::-1]
 
-    """Set your variable to itself with the lower method appended with the replace method:
+    """Set your variable to itself with the lower method(definition: returns a string where all characters are lower case) appended with the replace method(definition: searches a string for a value or regular expression; returns a new string with the values replaced; does not change the original string;):
 
 S= s.lower().replace(‘’,’ ‘)
 *ensure you leave a space 
 
-Then return your variable if  after, it goes thru the methods you appended to it ,it is equal to the reverse of itself 
+Then return your variable if once it goes thru the methods you appended to it , it is equal to the reverse of itself 
 
 return s == s[::-1]"""
 
